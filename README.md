@@ -1,0 +1,1 @@
+This example demonstrates a common error in Scala involving type inference and null values with generics.  The `MyClass` constructor attempts to provide a default value of null for a generic type `T`, but this is unsafe unless `T` is explicitly nullable. The solution provides a safer approach to handle default values for generic types.
